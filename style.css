@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.links{
+    margin-left: 0px;
+}
+.brand{
+    padding-left: 150px;
+}
+li{
+    position: relative;
+    text-decoration: none;
+    /* font-family: ; */
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+
+}
+li:after{
+content: "";
+position: absolute;
+background-color: rgb(8, 72, 6);
+height: 3px;
+width: 0;
+left: 0;
+bottom: 3px;
+transition: 0.3s;
+    
+}
+li:hover{
+    color: rgb(1, 57, 1);
+}
+li:hover:after{
+    width: 100%;
+}
+.input{
+    width:280px;
+    border:0.2px  solid rgb(234, 224, 224);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0.5px 1px 2px rgb(139, 132, 132);
+    position: relative;
+    font-family: inherit;
+    padding-left: 35px;
+}
+.search{
+    position: absolute;
+    right:485px;
+    bottom: 20px;
+}
+.login{
+    padding-left: 25px;
+}
+.in{
+    padding-right: 100px;
+}
